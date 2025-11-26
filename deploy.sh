@@ -1,3 +1,4 @@
 #!/bin/bash
 
-pip install -r requiremets.txt
+pip3 install -r requiremets.txt
+  
