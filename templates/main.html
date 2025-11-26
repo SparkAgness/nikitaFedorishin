@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> 
+	<head> 
+		<link type="text/css" href="{{url_for('static', filename='css/styles.css')}}" rel = "stylesheet"/>
+		<title>Никита Федоришин - моя семья</title>
+	</head>
+	<body>
+		<h1 class="text-center" style="color: #5D4037;">Моя семья</h1>
+		<p class="text-center" style="color: #5D4037;">Всем привет! Меня зовут Никита! Сейчас я расскажу вам о своей семье.</p>
+		<p class="text-center" style="color: #5D4037;">Моя семья состоит из 5 человек:</p>
+		<div class="text-center">
+		    <img src="{{ url_for('static', filename='images/myFamily.jpg') }}" 
+		         alt="Моя семья" 
+		         class="family-photo">
+		         <p class="text-center" style="color: #5D4037;">Мама, папа, Дёма, Даня и я </p>
+		</div>
+		<div class="text-center">
+		    <img src="{{ url_for('static', filename='images/Demian.jpg') }}" 
+		         alt="Моя семья" 
+		         class="family-photo">
+		         <p class="text-center" style="color: #5D4037;">Мой самый младший брат - Демьян. Ему 1 год. Он ходит в младшую группу детского сада. Дема ещё многого не понимает и часто капризничает, но я никогда не обижаюсь и не злюсь на него. Хоть иногда он и бывает невыносимым</p>
+		</div>
+		<div class="text-center">
+		    <img src="{{ url_for('static', filename='images/Danila.jpg') }}" 
+		         alt="Моя семья" 
+		         class="family-photo">
+		         <p class="text-center" style="color: #5D4037;">Дане 3 года. Он ходит в среднюю группу детского сада. С ним мы очень часто шалим и не слушаемся родителей. С ним совсем не скучно, хотя очень часто мы ссоримся из-за того, кто должен съесть последнюю конфету в нашем общем новогоднем подарке</p>
+		</div>
+		<div class="text-center">
+		    <img src="{{ url_for('static', filename='images/Mother.jpg') }}" 
+		         alt="Моя семья" 
+		         class="family-photo">
+		         <p class="text-center" style="color: #5D4037;">Мою маму зовут Катя. Она работает бухгалтером в нашем клубе и часто бывает строга с нами, особенно с папой. Но мы всё равно её любим</p>
+		</div>
+		<div class="text-center">
+		    <img src="{{ url_for('static', filename='images/Father.jpg') }}" 
+		         alt="Моя семья" 
+		         class="family-photo">
+		         <p class="text-center" style="color: #5D4037;">Папу зовут Андрей, и он работает инженером. Он испытывает и запускает роботов, которые варят... Нет, не кашу, а металлы... </p>
+		</div>
+		<div class="text-center">
+		    <img src="{{ url_for('static', filename='images/Nikita.jpg') }}" 
+		         alt="Моя семья" 
+		         class="family-photo">
+		         <p class="text-center" style="color: #5D4037;">Ну, и конечно, же, я! Я учусь в первом классе и очень люблю свою семью!</p>
+		</div>
+		<div class="text-center">
+		    <div class="photos-horizontal">
+		        <!-- Фото 1 -->
+		        <div class="photo-item">
+		            <img src="{{ url_for('static', filename='images/allTogether.jpg') }}" 
+		                 alt="Вся семья" 
+		                 class="family-photo">
+		        </div>
+		        
+		        <!-- Фото 2 -->
+		        <div class="photo-item">
+		            <img src="{{ url_for('static', filename='images/eating.jpg') }}" 
+		                 alt="За едой" 
+		                 class="family-photo">
+		        </div>
+		        
+		        <!-- Фото 3 -->
+		        <div class="photo-item">
+		            <img src="{{ url_for('static', filename='images/helicopters.jpg') }}" 
+		                 alt="Вертолет" 
+		                 class="family-photo">
+		        </div>
+		    </div>
+		    
+		    <p class="text-center" style="color: #5D4037; margin-top: 20px;">
+		        Мы очень часто ездим куда-то. Мы посещаем музеи, интересные места, смотрим как живут люди в других городах и районах. Я очень люблю свою семью и горжусь ею!
+		    </p>
+		</div>
+	</body>
+</html>
